@@ -4,7 +4,7 @@
 }
 body{
   margin:0;
- 
+
   
 
 
@@ -78,17 +78,17 @@ nav a:hover::before{
   width: 100%;
 }
 
-.hero-section {
+.first-section {
   /*  width: 100%;*/
  
-    height: 100vh;
+    height: 93vh;
     background: rgb(255, 235, 208);
     /* transform: translateY(-20px); */
     position: relative;
     margin: 0px auto;
 }
 
-.hero {
+.first {
 
     position: absolute;
     top: 5px;
@@ -97,7 +97,7 @@ nav a:hover::before{
     color: #9c7910;
 }
 
-.hero h1 {
+.first h1 {
 
     font-size: 5em;
     display: inline-block;
@@ -105,17 +105,17 @@ nav a:hover::before{
  
 }
 
-.hero h4 {
+.first h4 {
     font-size: 1.1em;
     font-weight: bold;
    
 }
 
-.hero h4 span {
+.first h4 span {
     color: #9c7910;
 }
 
-.hero h4 i {
+.first h4 i {
     font-size: .75em;
     font-style: normal;
     font-weight: lighter;
@@ -123,11 +123,15 @@ nav a:hover::before{
     color: #666;
 }
 
-
 .signUp {
+
+
+  padding-top: 500px;
   text-align: center;
-  margin-top: 3%;
-    padding-bottom: 5px;
+  margin-top: 0;
+  padding-bottom: 50px;
+  background-color: #edcf9c;
+  height: 100px;
 }
 
 input[type = text] {
@@ -145,6 +149,103 @@ input[type = submit] {
 
 }
 
+
+.scroll-section {
+    width: 100%;
+    background: rgb(255, 235, 208);
+     height: 70vh;
+    display: flex;
+    flex-flow: row nowrap;
+    margin-top: 45px;
+    justify-content: center;
+    position: relative;
+}
+
+.col {
+    width: 50%;
+}
+
+.col img {
+    width: 100%;
+     height: 400px;
+   
+    margin-bottom: 1000px; 
+    padding: 0px;
+}
+
+.slideshow {
+    position: relative;
+}
+
+.slide {
+    width: 100%;
+    position: absolute;
+    transition: opacity 1.5s ease-in;
+  }
+  
+.slide + .slide {
+    opacity: 0;
+}
+
+#mobile-feature {
+    display: none;
+}
+
+
+
+
+.headin1{
+
+ text-align: center;
+ font-size: 3em;
+ display: inline-block;
+ color: grey;
+ padding: 5%;
+ 
+
+
+}
+.team{
+  display: inline-block;
+  background-color: grey;
+  
+}
+.team img{
+   
+  padding:80px;
+  border-radius: 50%;
+}
+
+
+
+
+/*
+.signUp {
+
+
+  padding-top: 300px;
+  text-align: center;
+  margin-top: 0;
+  padding-bottom: 5px;
+  background-color: #edcf9c;
+  height: 100px;
+}
+
+input[type = text] {
+  height: 50px;
+  width: 400px;
+  left: 30%;
+
+}
+
+
+input[type = submit] {
+  height: 50px;
+  width: 100px;
+  left: 30%;
+
+}
+*/
 
 
 
@@ -172,6 +273,7 @@ footer {
     /* color: #8b6800; */
     font-weight: 300;
     text-transform: capitalize;
+      text-decoration: none;
 }
 
 .copyright {
@@ -183,7 +285,7 @@ footer {
     opacity: .5;
     display: none;
 }
-
+*/
 
 
 
