@@ -295,13 +295,19 @@ footer {
 
 
 
-@media only screen and (max-width: 480px) {
+@media only screen  and (max-width: 480px) {
 
   .logo{
     width: 100%;
    
   }
-  
+  .first h1 {
+
+    font-size: 2.5em;
+    display: inline-block;
+    color: rgb(93, 224, 124);
+ 
+}
     
 }
 
@@ -309,11 +315,30 @@ footer {
    .logo{
     width: 100%;
    
-  }
+  }.first h1 {
+
+    font-size: 3.5em;
+    display: inline-block;
+    color: rgb(93, 224, 124);
+ 
+}
   
   
   
 }
   @media all and (min-width: 768px) and (max-width: 991px){
   
+}
+@media all and (max-width: 479px){
+    .logo{
+    width: 100%;
+   
+  }.first h1 {
+
+    font-size: 3.5em;
+    display: inline-block;
+    color: rgb(93, 224, 124);
+ 
+}
+   
 }
